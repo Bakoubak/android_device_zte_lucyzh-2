@@ -143,10 +143,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/audio_effect/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
 
 # SWAP with ZRam
-$(LOCAL_PATH)/files/fstab.zram:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap
+# $(LOCAL_PATH)/files/fstab.zram:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap
 
 #for lmkd parameters
-PRODUCT_COPY_FILES += \
+# PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lmkd_param.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lmkd_param.conf
 
 # Power Framework
