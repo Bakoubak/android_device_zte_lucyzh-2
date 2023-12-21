@@ -113,6 +113,7 @@ TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(
 # Kernel Source
 TARGET_KERNEL_CONFIG := lucyzh_defconfig
 TARGET_KERNEL_SOURCE := kernel/zte/lucyzh
+BOARD_KERNEL_IMAGE_NAME := Image
 
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy-vendor/selinux/vendor
