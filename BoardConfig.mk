@@ -66,7 +66,7 @@ TARGET_VPP_PLATFORM := sharkl3
 SUPPORT_RGB_ENC := true
 
 #SPRD: streaming extention, AOSP should be false.
-USE_SPRD_STREAMING_EX := true
+USE_SPRD_STREAMING_EX := false
 
 #SPRD: set property overrides split
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
