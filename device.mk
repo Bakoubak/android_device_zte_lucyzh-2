@@ -1,5 +1,8 @@
 LOCAL_PATH := device/zte/lucyzh
 
+# Add Vendor
+$(call inherit-product, vendor/zte/lucyzh/lucyzh-vendor.mk)
+
 BOARD_VNDK_VERSION := current
 OMA_DRM := true
 
